@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halloween Flexbox & Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🎃 Halloween 2025-Flexbox & Grid 🎃</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img class="print" src="img/img 1.png" alt="flexbox-froggy">
+  <img class="print" src="img/img 2.png" alt="Grid Garden">
+
+  <main>
+    <!-- Título Halloween -->
+    <h1 class="halloween-title">Bem-vindo ao Mundo do Halloween!</h1>
+
+    <section class="cards">
+      <div class="card">
+        <img class="halloween-icon" src="img/ghost.png" alt="Fantasma" />
+        <h2>Decoração de Halloween</h2>
+        <p>Inspire-se nas melhores decorações de Halloween para a sua casa!</p>
+      </div>
+      <div class="card">
+        <img class="halloween-icon" src="img/ghost.png" alt="Fantasma" />
+        <h2>Receitas Assustadoras</h2>
+        <p>Aprenda a fazer receitas deliciosas e temáticas para a festa de Halloween.</p>
+      </div>
+      <div class="card">
+        <img class="halloween-icon" src="img/ghost.png" alt="Fantasma" />
+        <h2>Filmes de Terror</h2>
+        <p>Prepare-se para uma noite de filmes de terror com nossa lista especial!</p>
+      </div>
+      <div class="card">
+        <img class="halloween-icon" src="img/ghost.png" alt="Fantasma" />
+        <h2>Fantasia Criativa</h2>
+        <p>Veja ideias criativas para sua fantasia de Halloween!</p>
+      </div>
+    </section>
+
+    <section class="flex-grid-examples">
+      <div class="flex-example">
+        <h2>O que é Flexbox?</h2>
+        <p>Flexbox é um modelo de layout do CSS que facilita a criação de designs flexíveis e responsivos, alinhando e distribuindo os itens dentro de um container de forma eficiente.</p>
+        <div class="example-box" style="display: flex; justify-content: space-between;">
+          <div class="box">Item 1</div>
+          <div class="box">Item 2</div>
+          <div class="box">Item 3</div>
+        </div>
+        <p><strong>Exemplo prático:</strong> O Flexbox distribui automaticamente os itens e os alinha dentro do container com o uso de <code>display: flex;</code> e <code>justify-content: space-between;</code>.</p>
+      </div>
+
+      <div class="grid-example">
+        <h2>O que é CSS Grid?</h2>
+        <p>CSS Grid Layout é uma ferramenta poderosa para criar layouts em duas dimensões: tanto em linhas quanto em colunas. Com ele, você pode criar designs complexos de forma simples e flexível.</p>
+        <div class="grid-container">
+          <div class="grid-item">Item 1</div>
+          <div class="grid-item">Item 2</div>
+          <div class="grid-item">Item 3</div>
+          <div class="grid-item">Item 4</div>
+        </div>
+        <p><strong>Exemplo prático:</strong> Usando <code>display: grid;</code> e <code>grid-template-columns: 1fr 1fr;</code>, você pode criar um layout de duas colunas e várias linhas.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Halloween - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
